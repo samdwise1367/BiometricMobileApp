@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">BiometricsMobile</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_local">Local DB</string>
+    <string name="title_device">Device DB</string>
+    <string name="finger1">Finger 1</string>
+    <string name="finger2">Finger 2</string>
+    <string name="enroll_selected">Enroll Finger</string>
+    <string name="delete_selected">Delete Finger</string>
+    <string name="verify">Verify</string>
+    <string name="practice">Swipe Practice</string>
+    <string name="enroll_trust">Enroll Trust</string>
+    <string name="delete_trust">Remove Trust</string>
+    <string name="list_trusts">List Trusts</string>
+    <string name="enroll_in_manager">Enroll in Manager...</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit">Exit</string>
+    <string name="swipe_finger">Swipe finger</string>
+    <string name="swipe_finger_again">Swipe finger again</string>
+    <string name="swipe_too_fast">Swipe too fast!</string>
+    <string name="no_match">Finger did not match!</string>
+    <string name="area_too_small">Area too small!</string>
+    <string name="quality_too_low">Quality too low!</string>
+    <string name="quality">Quality:</string>
+    <string name="area">Area:</string>
+
+    <string name="error">Error</string>
+    <string name="info">Info</string>
+
+    <string name="finger_verified">Successfully verified finger</string>
+    <string name="practice_complete">Finger practice completed</string>
+    <string name="enroll_successful">Successfully enrolled"</string>
+    <string name="delete_successful">Successfully deleted</string>
+    <string name="trust_enroll_successful">Trust enrolled successfully</string>
+    <string name="trust_delete_successful">Trust deleted successfully</string>
+    <string name="ver_but_no_trusts">Finger verified but there are no trusts enrolled</string>
+    <string name="ver_but_sec_level">Finger verified but at an unacceptable security level</string>
+    <string name="ver_but_trust_broken">Finger verified but the trust has been broken</string>
+    <string name="verify_successful">Finger verified successfully</string>
+
+    <string name="no_trusts_enrolled">No trusts enrolled</string>
+    <string name="list_of_trusts">List of trusts:</string>
+    <string name="VALID">VALID</string>
+    <string name="INVALID">INVALID</string>
+
+    <string name="imageview_enroll_thumbnail1_description">Fingerprint enroll thumbnail 1</string>
+    <string name="imageview_enroll_thumbnail2_description">Fingerprint enroll thumbnail 2</string>
+    <string name="imageview_enroll_thumbnail3_description">Fingerprint enroll thumbnail 3</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+
+    <string name="firName">firstName</string>
+    <string name="Id">Enter UserId</string>
+    <string name="cdesc_fingerprint_image">Fingerprint image</string>
+
+    <string name="midName">middlename</string>
+    <string name="lastName">lastname</string>
+    <string name="dob">Date of Birth</string>
+    <string name="homeAdd">Home Address</string>
+    <string name="contactAdd">Contact Address</string>
+    <string name="gend">Gender</string>
+    <string name="gender_prompt">Gender Prompt</string>
+    <string name="tel">Telephone</string>
+    <string name="email">email</string>
+    <string name="blood">Blood Group</string>
+    <string name="nat">Nationality</string>
+    <string name="marital">Marital Status</string>
+    <string name="state">state</string>
+    <string name="noChildren">No of Children</string>
+    <string name="chn2">chn2</string>
+    <string name="disability">Disability</string>
+    <string name="education">Educational Attainment</string>
+    <string name="household">Household type</string>
+    <string name="sizehousehold">Size of HouseHold</string>
+    <string name="schoolStatus">School Status</string>
+    <string name="bnkSort">Bank Sort Code</string>
+    <string name="bnkAcctNo">Bank Account No</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_text">Login</string>
+    <string name="fullName">Fullname</string>
+    <string name="fini">Finish</string>
+    <string name="captPhoto">Capture</string>
+    <string name="fingerL1">Left Index Finger</string>
+    <string name="fingerL2">Left Middle Finger</string>
+    <string name="fingerL3">Left Ring Finger</string>
+    <string name="fingerL4">Left Small Finger</string>
+    <string name="fingerL5">Left Thumb Finger</string>
+    <string name="enrL">Enroll Left Hand</string>
+    <string name="fingerR1">Right Thumb Finger</string>
+    <string name="fingerR2">Right Index Finger</string>
+    <string name="fingerR3">Right Middle Finger</string>
+    <string name="fingerR4">Right Ring Finger</string>
+    <string name="fingerR5">Right Small Finger</string>
+    <string name="enrR">Enroll Right Hand</string>
+    <string name="fin">Finish</string>
+    <string name="enr">Enroll</string>
+    <string name="title_activity_home">Home Title</string>
+    <string name="title_activity_enroll1">Enrol1 Title</string>
+    <string name="title_verify">Verify Title</string>
+    <string name="title_activity_camera_intent">Camera Intent</string>
+    <string name="title_activity_enroll2">Enrol2 Title</string>
+    <string name="title_activity_enroll3">Enrol3 Title</string>
+    <string name="album_name">Album name</string>
+    <string name="cannot">cannot</string>
+    <string name="title_left">Title Left</string>
+    <string name="title_right">Title Right</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_verification_home">VerificationHome</string>
+    <string name="title_activity_view_user_details">ViewUserDetails</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_verify_biometric_home">VerifyBiometricHome</string>
+</resources>

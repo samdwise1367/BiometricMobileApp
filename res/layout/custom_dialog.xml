@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <RelativeLayout
+        android:id="@+id/fingerInfoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_borders" >
+
+        <ImageView
+            android:id="@+id/imageViewVeifyImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="43dp"
+            android:src="@drawable/gen" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textViewVerifyFullnames"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/fullName"
+        android:textColor="#372c24" />
+
+    <TextView
+        android:id="@+id/textViewVerifyTelephone"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_height="wrap_content"
+        android:text="@string/tel"
+        android:textColor="#372c24" />
+
+    <TextView
+        android:id="@+id/textViewVerifyNationality"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:paddingTop="5dip"
+        android:text="@string/nat"
+        android:textColor="#372c24" />
+
+    <TextView
+        android:id="@+id/textViewVerifyStateOfOrigin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:paddingTop="5dip"
+        android:text="@string/state"
+        android:textColor="#372c24" />
+
+    <TextView
+        android:id="@+id/textViewVerifyCHN"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/noChildren"
+        android:textColor="#372c24" />
+
+    <TextView
+        android:id="@+id/textViewVerifyAccountNo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/bnkAcctNo"
+        android:textColor="#372c24" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonVerifyDetails"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ok" />
+    </LinearLayout>
+
+</LinearLayout>
